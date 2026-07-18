@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicchio Roma | Artisanal Roman Pizza & Pizza Making Elements - Coming Soon</title>
+    <meta name="description" content="Experience the authentic art of Roman pizza. Spicchio Roma is bringing premium pizza slices and high-quality pizza-making ingredients from Italy straight to your kitchen. Launching soon!">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Spicchio Roma | Artisanal Roman Pizza & Pizza Making Elements - Coming Soon">
+    <meta property="og:description" content="Authentic Roman pizza slices and premium pizza-making ingredients from Italy. Launching soon.">
+    <meta property="og:image" content="logo.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Full-Bleed Background Graphic -->
+    <div class="split-bg-image" style="background-image: url('background.png');"></div>
+    <div class="bg-vignette"></div>
+
+    <!-- Architectural Layout Design Grid Lines -->
+    <div class="layout-grid">
+        <div class="layout-grid-line"></div>
+        <div class="layout-grid-line"></div>
+        <div class="layout-grid-line"></div>
+        <div class="layout-grid-line"></div>
+    </div>
+
+    <!-- Large Background Text (Dribbble Style watermark) -->
+    <div class="bg-watermark">SPICCHIO</div>
+
+    <!-- Ambient Animated Background Glows -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    
+    <!-- Floating Accents (Subtle Flour Sparkles & Herbs) -->
+    <div class="floating-container">
+        <div class="floating-shape shape-1">🌾</div>
+        <div class="floating-shape shape-2">🍃</div>
+        <div class="floating-shape shape-3">🍕</div>
+        <div class="floating-shape shape-4">🍅</div>
+    </div>
+
+    <!-- Wide Editorial Layout Wrapper -->
+    <main class="wide-layout-wrapper">
+        <!-- Left Panel: Brand & Countdown -->
+        <section class="panel-left">
+            <!-- Pulsing Status Badge -->
+            <div class="status-badge" id="status-badge">
+                <span class="pulse-dot"></span>
+                <span class="status-text">Fermentando • Fermenting our launch</span>
+            </div>
+
+            <header class="brand-header">
+                <div class="logo-wrapper">
+                    <img src="logo.jpg" alt="Spicchio Roma Logo" class="brand-logo" id="brand-logo">
+                </div>
+                <h1 class="brand-title">Spicchio <span class="italic-accent">Roma</span></h1>
+                <p class="brand-subtitle">Artisanal Roman Pizza & Pizza-Making Elements</p>
+                <div class="origin-tag">
+                    <span class="flag">🇮🇹</span> Roma, Italy
+                </div>
+            </header>
+
+            <p class="brand-story">
+                Gourmet Roman pizza slices and authentic pizza-making ingredients imported directly from Italy.
+            </p>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-section" aria-label="Time remaining until launch">
+                <p class="countdown-title">Unveiling in</p>
+                <div class="countdown-container" id="countdown-timer">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="days">30</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="hours">00</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="minutes">00</span>
+                        <span class="countdown-label">Mins</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="seconds">00</span>
+                        <span class="countdown-label">Secs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Panel: Teasers & Features -->
+        <section class="panel-right">
+            <div class="teaser-content-box">
+                <h2 class="teaser-headline">Discover Our Offerings</h2>
+                <p class="teaser-intro font-muted">Launching soon:</p>
+                
+                <div class="teaser-grid">
+                    <!-- Card 1: La Pizza -->
+                    <div class="teaser-card" id="teaser-pizza" style="background-image: linear-gradient(to right, rgba(12, 11, 10, 0.95) 45%, rgba(12, 11, 10, 0.45) 100%), url('pizza_card.png');">
+                        <div class="card-tag tag-tomato">La Pizza</div>
+                        <div class="card-icon">🍕</div>
+                        <div class="card-details">
+                            <h3>La Pizza</h3>
+                            <p>Authentic, crispy Roman pizza slices.</p>
+                        </div>
+                        <div class="card-arrow" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Gli Elementi -->
+                    <div class="teaser-card" id="teaser-elements" style="background-image: linear-gradient(to right, rgba(12, 11, 10, 0.95) 45%, rgba(12, 11, 10, 0.45) 100%), url('elements_card.png');">
+                        <div class="card-tag tag-gold">Gli Elementi</div>
+                        <div class="card-icon">🌾</div>
+                        <div class="card-details">
+                            <h3>Gli Elementi</h3>
+                            <p>Premium flours, tomatoes, & baking tools.</p>
+                        </div>
+                        <div class="card-arrow" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="page-footer">
+                <p class="footer-text">Con amore da Roma &copy; <span id="current-year"></span> Spicchio Roma. All rights reserved.</p>
+            </footer>
+        </section>
+    </main>
+
+    <!-- Dynamic Ambient Cursor Glow -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
